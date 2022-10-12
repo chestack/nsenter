@@ -39,6 +39,6 @@ fn main() {
     let _ = execvp(p.as_c_str(), &sa).map_err(|e| {
         println!("error is {:?}", e);
         e
-    }); 
+    });
 
 }
