@@ -2,4 +2,4 @@
 
 ## how to use it
 - cargo build
-- ./nsenter 9601 mnt /bin/ls "/dev/"
+- ./nsenter <pid>(9601) <namespace>(mnt) /bin/ls "/dev/"
